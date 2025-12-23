@@ -24,4 +24,4 @@ def home():
         "Homepage accessed Emine",
         extra={"remote_addr": request.remote_addr}
     )
-    return "Hello from Flask behind Nginx! - Deploying with GitHub Actions"
+    return "Hello from Flask behind Nginx! - Deploying with GitHub Actions!!! "
